@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "noEmitOnError": true, 
+      "noImplicitAny": true,
+      "removeComments": true,
+      "strictNullChecks": true,
+      "sourceMap": false
+    },
+    "include": ["resources/ts/**/*"]
+  }
