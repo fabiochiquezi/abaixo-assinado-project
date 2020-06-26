@@ -1,7 +1,6 @@
 @extends('./system/structure/template')
 
 @section('content-page')
-@section('content-page')
 
 <main class="content-site content-system-page">
     <div class="container">
@@ -10,10 +9,10 @@
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">WhatsApp</th>
-                    <th scope="col">E-mail</th>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>WhatsApp</th>
+                    <th>E-mail</th>
                     </tr>
                 </thead>
 

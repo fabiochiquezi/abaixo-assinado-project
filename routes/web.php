@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dashboard/abaixo-assinado', "System\AbaixoAssinado@pageEdit");
+Route::get('/dashboard/abaixo-assinado', "System\AbaixoAssinado@pageEdit")
+    ->name('system.abaixoAssinado');
 
-Route::get('/dashboard/tabela-de-dados', "System\TabelaDeDados@index");
+Route::get('/dashboard', "System\TabelaDeDados@index")
+    ->name('system.home');
+
+Route::get('/dashboard/sign-in', "System\Login@sigIn")
+    ->name('system.signin');

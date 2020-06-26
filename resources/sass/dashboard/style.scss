@@ -26,9 +26,11 @@
 
     }
 }
+
 .content-site{
     margin-bottom: 64px;
 }
+
 .title-standard{
     padding: 2rem 1rem 1rem;
     background-color: #fff;
@@ -93,4 +95,33 @@
 .group-field{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 16px 0px;
+}
+
+
+.content-system-sig-in{
+    background: #efefef;
+
+    .row{
+        position: relative;
+        height: 100vh;
+    }
+    .form-login{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -160px;
+        margin-top: -190px;
+        background: #fff;
+        padding: 24px 32px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+
+        .form-group{
+            width: 260px;
+        }
+
+        label{
+            margin-bottom: 0.35rem;
+        }
+    }
 }

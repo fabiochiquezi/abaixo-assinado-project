@@ -11,7 +11,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark header-site">
         <div class="container">
-            <a href="#" class="navbar-brand">Dashboard</a>
+            <a href="{{route('system.home')}}" class="navbar-brand">Dashboard</a>
 
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -19,11 +19,12 @@
         
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link ml-2">Tabela de Dados</a>
-                    <a href="#" class="nav-item nav-link ml-2 active">Abaixo Assinado</a>
+                {{-- <a>{{request()->is('system/home')}}</a> --}}
+                    <a href="{{route('system.home')}}" class="nav-item nav-link ml-2 {{ request()->is('dashboard') ? 'active' : '' }}">Tabela de Dados</a>
+                    <a href="{{route('system.abaixoAssinado')}}" class="nav-item nav-link ml-2 {{ request()->is('dashboard/abaixo-assinado') ? 'active' : '' }}">Abaixo Assinado</a>
                 </div>
 
-                <a href="" class="ml-auto text-white button-sair">Sair</a>
+                <a href="{{route('system.signin')}}" class="ml-auto text-white button-sair">Sair</a>
             </div>
         </div>        
     </nav>
