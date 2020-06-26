@@ -20,9 +20,11 @@
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0",
         "ts-loader": "^7.0.5",
-        "typescript": "^3.9.5"
+        "typescript": "^3.9.5",
+        "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "bootstrap": "^4.5.0"
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1"
     }
 }

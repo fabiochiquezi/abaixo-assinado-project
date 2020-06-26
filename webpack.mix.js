@@ -13,6 +13,8 @@ const mix = require('laravel-mix');
 
 mix
     .ts('resources/ts/dashboard/app.ts', 'public/js/dashboard')
+    .js('./node_modules/jquery/dist/jquery.js', 'public/js')
+    .js('./node_modules/bootstrap/dist/js/bootstrap.bundle.js', 'public/js')
     .sass('resources/sass/dashboard/style.scss', 'public/css/dashboard')
     .version()
     .browserSync('127.0.0.1:8000');;

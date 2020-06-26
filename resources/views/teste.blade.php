@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ mix( 'css/dashboard/style.css' ) }}">
 </head>
 <body>
-    
+    aaaxx
     <script src="{{ mix( 'js/dashboard/app.js' ) }}"></script>
 </body>
 </html>

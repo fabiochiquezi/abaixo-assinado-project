@@ -81,21 +81,10 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./resources/sass/dashboard/style.scss":
-/*!*********************************************!*\
-  !*** ./resources/sass/dashboard/style.scss ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
 
 /***/ "./resources/ts/dashboard/app.ts":
 /*!***************************************!*\
@@ -108,15 +97,14 @@
 
 /***/ }),
 
-/***/ 0:
-/*!***********************************************************************************!*\
-  !*** multi ./resources/ts/dashboard/app.ts ./resources/sass/dashboard/style.scss ***!
-  \***********************************************************************************/
+/***/ 2:
+/*!*********************************************!*\
+  !*** multi ./resources/ts/dashboard/app.ts ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\web\trabalho\abaixo-assinado-project\resources\ts\dashboard\app.ts */"./resources/ts/dashboard/app.ts");
-module.exports = __webpack_require__(/*! C:\web\trabalho\abaixo-assinado-project\resources\sass\dashboard\style.scss */"./resources/sass/dashboard/style.scss");
+module.exports = __webpack_require__(/*! C:\web\trabalho\abaixo-assinado-project\resources\ts\dashboard\app.ts */"./resources/ts/dashboard/app.ts");
 
 
 /***/ })

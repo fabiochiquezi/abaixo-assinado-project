@@ -1,3 +1,96 @@
+@import '../reset.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 
-// @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-// @import '../../node_modules/bootstrap/scss/bootstrap';
+.header-site{
+    a{
+        transition: all 200ms ease;
+    }
+
+    .navbar-brand{
+        font-size: 1.75rem;
+        margin-bottom: 2px;
+    }
+
+    .button-sair{
+        opacity: 0.5;
+
+        @media(max-width: 768px){
+            margin-left: 8px !important;
+            opacity: 0.5;
+        }
+
+        &:hover{
+            text-decoration: none;
+            opacity: 1;
+        }
+
+    }
+}
+.content-site{
+    margin-bottom: 64px;
+}
+.title-standard{
+    padding: 2rem 1rem 1rem;
+    background-color: #fff;
+}
+
+
+
+.content-system-page{
+
+    // .tab-header{
+    //     a{
+    //         display: inline-block;
+    //         text-align: center;
+
+    //         @media(min-width: 768px){
+    //             text-align: left;
+    //         }
+    //     }
+    // }
+    .custom-file-label{
+        max-width: 91%;
+        margin: 0 auto;
+
+        @media (min-width: 368px){
+            max-width: 93%;
+        }
+        @media (min-width: 480px){
+            max-width: 95%;
+        }
+        @media (min-width: 580px){
+            max-width: 93%;
+        }
+        @media (min-width: 992px){
+            max-width: 95%;
+        }
+        @media (min-width: 1200px){
+            max-width: 96%;
+        }
+    }
+
+    .edit-form-system{
+        li{
+            padding: 16px 0px 16px 16px;
+        }
+        li:nth-child(odd){
+
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        p{
+            margin-top: 6px;
+            margin-bottom: 0px;
+        }
+    }
+
+    // #v-pills-formulario{
+    //     .button-enviar{
+    //         width: 250px;
+    //     }
+    // }
+}
+
+.group-field{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0px;
+}
